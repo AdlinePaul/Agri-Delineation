@@ -23,8 +23,8 @@ def load_sar_image(image_path):
         return None
     return image / 255.0  # Normalize
 
-satellite_image_path = 'img1.jpg'
-sar_image_path = 'img1.jpg'
+satellite_image_path = 'satelliteimg.jpg'
+sar_image_path = 'sarimg.jpg'
 
 # Load images
 satellite_image = load_satellite_image(satellite_image_path)

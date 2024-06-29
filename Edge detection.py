@@ -16,8 +16,8 @@ def load_sar_image(image_path):
     image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
     return image / 255.0  # Normalize
 
-satellite_image_path = 'path/to/satellite_image.jpg'
-sar_image_path = 'path/to/sar_image.jpg'
+satellite_image_path = 'img1.jpg'
+sar_image_path = 'img1.jpg'
 
 satellite_image = load_satellite_image(satellite_image_path)
 sar_image = load_sar_image(sar_image_path)
